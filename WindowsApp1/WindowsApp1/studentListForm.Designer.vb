@@ -40,6 +40,7 @@ Partial Class studentListForm
         'DataGridView1
         '
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(119, 166)
         Me.DataGridView1.Name = "DataGridView1"
@@ -51,7 +52,7 @@ Partial Class studentListForm
         'refreshButton
         '
         Me.refreshButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.refreshButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.refreshButton.BackColor = System.Drawing.Color.ForestGreen
         Me.refreshButton.ForeColor = System.Drawing.Color.White
         Me.refreshButton.Location = New System.Drawing.Point(119, 622)
         Me.refreshButton.Name = "refreshButton"
@@ -62,7 +63,7 @@ Partial Class studentListForm
         '
         'totalLabel
         '
-        Me.totalLabel.BackColor = System.Drawing.Color.MediumTurquoise
+        Me.totalLabel.BackColor = System.Drawing.Color.ForestGreen
         Me.totalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalLabel.ForeColor = System.Drawing.Color.White
         Me.totalLabel.Location = New System.Drawing.Point(116, 77)
@@ -74,7 +75,7 @@ Partial Class studentListForm
         '
         'malePanel
         '
-        Me.malePanel.BackColor = System.Drawing.Color.DarkTurquoise
+        Me.malePanel.BackColor = System.Drawing.Color.ForestGreen
         Me.malePanel.Controls.Add(Me.maleLabel)
         Me.malePanel.Location = New System.Drawing.Point(412, 77)
         Me.malePanel.Name = "malePanel"
@@ -95,7 +96,7 @@ Partial Class studentListForm
         '
         'femalePanel
         '
-        Me.femalePanel.BackColor = System.Drawing.Color.Turquoise
+        Me.femalePanel.BackColor = System.Drawing.Color.ForestGreen
         Me.femalePanel.Controls.Add(Me.femaleLabel)
         Me.femalePanel.Location = New System.Drawing.Point(671, 80)
         Me.femalePanel.Name = "femalePanel"
@@ -134,7 +135,7 @@ Partial Class studentListForm
         'searchButton
         '
         Me.searchButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.searchButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.searchButton.BackColor = System.Drawing.Color.ForestGreen
         Me.searchButton.ForeColor = System.Drawing.Color.White
         Me.searchButton.Location = New System.Drawing.Point(696, 36)
         Me.searchButton.Name = "searchButton"
@@ -146,8 +147,8 @@ Partial Class studentListForm
         'studentListForm
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(935, 671)
+        Me.BackColor = System.Drawing.Color.Turquoise
+        Me.ClientSize = New System.Drawing.Size(748, 536)
         Me.Controls.Add(Me.totalLabel)
         Me.Controls.Add(Me.searchButton)
         Me.Controls.Add(Me.searchTextBox)

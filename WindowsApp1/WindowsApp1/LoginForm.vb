@@ -3,7 +3,7 @@
 Public Class LoginForm
     Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        loginPictureBox.ImageLocation = "../../Images/9-Best-School-Logos-and-How-to-Make-Your-Own-for-Free-image1.png"
+        loginPictureBox.ImageLocation = "../../Images/well.png"
 
     End Sub
 

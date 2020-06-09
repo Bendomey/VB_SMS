@@ -22,7 +22,6 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.STUDENTToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AddNewStudentToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -86,25 +85,25 @@ Partial Class MainForm
         'AddNewCourseToolStripMenuItem
         '
         Me.AddNewCourseToolStripMenuItem.Name = "AddNewCourseToolStripMenuItem"
-        Me.AddNewCourseToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.AddNewCourseToolStripMenuItem.Size = New System.Drawing.Size(203, 26)
         Me.AddNewCourseToolStripMenuItem.Text = "Add New Course"
         '
         'DeleteCourseToolStripMenuItem
         '
         Me.DeleteCourseToolStripMenuItem.Name = "DeleteCourseToolStripMenuItem"
-        Me.DeleteCourseToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.DeleteCourseToolStripMenuItem.Size = New System.Drawing.Size(203, 26)
         Me.DeleteCourseToolStripMenuItem.Text = "Delete Course"
         '
         'EditCourseToolStripMenuItem
         '
         Me.EditCourseToolStripMenuItem.Name = "EditCourseToolStripMenuItem"
-        Me.EditCourseToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.EditCourseToolStripMenuItem.Size = New System.Drawing.Size(203, 26)
         Me.EditCourseToolStripMenuItem.Text = "Edit Course"
         '
         'ManageCoursesToolStripMenuItem
         '
         Me.ManageCoursesToolStripMenuItem.Name = "ManageCoursesToolStripMenuItem"
-        Me.ManageCoursesToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
+        Me.ManageCoursesToolStripMenuItem.Size = New System.Drawing.Size(203, 26)
         Me.ManageCoursesToolStripMenuItem.Text = "Manage Courses"
         '
         'GRADESToolStripMenuItem
@@ -136,7 +135,7 @@ Partial Class MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
+        Me.BackColor = System.Drawing.Color.Turquoise
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(801, 536)
         Me.Controls.Add(Me.MenuStrip1)
@@ -144,7 +143,7 @@ Partial Class MainForm
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "MainForm"
-        Me.Text = "MainForm"
+        Me.Text = "TIKAY ELEMENTARY SCHOOL"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

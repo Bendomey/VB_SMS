@@ -229,7 +229,10 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Images\9-Best-School-Logos-and-How-to-Make-Your-Own-for-Free-image1.png" />
+    <Content Include="Images\photo-1436262513933-a0b06755c784.jpg" />
+    <Content Include="Images\photo-1472289065668-ce650ac443d2.jpg" />
     <Content Include="Images\student.jpg" />
+    <Content Include="Images\well.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

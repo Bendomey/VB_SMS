@@ -1,8 +1,7 @@
 ﻿Public Class MainForm
     Private Sub MainForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        BackgroundImage = Image.FromFile("../../Images/9-Best-School-Logos-and-How-to-Make-Your-Own-for-Free-image1.png")
-
+        BackgroundImage = Image.FromFile("../../Images/photo-1472289065668-ce650ac443d2.jpg")
     End Sub
 
     Private Sub AddNewStudentToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AddNewStudentToolStripMenuItem.Click

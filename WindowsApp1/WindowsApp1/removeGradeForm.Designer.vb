@@ -32,6 +32,7 @@ Partial Class removeGradeForm
         '
         Me.gradeDataGridView.AllowUserToAddRows = False
         Me.gradeDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.gradeDataGridView.BackgroundColor = System.Drawing.Color.White
         Me.gradeDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.gradeDataGridView.Location = New System.Drawing.Point(26, 42)
         Me.gradeDataGridView.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -44,17 +45,19 @@ Partial Class removeGradeForm
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.Red
+        Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(280, 498)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(219, 38)
         Me.Button2.TabIndex = 44
         Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'deleteGradeButton
         '
-        Me.deleteGradeButton.BackColor = System.Drawing.Color.Turquoise
+        Me.deleteGradeButton.BackColor = System.Drawing.Color.ForestGreen
         Me.deleteGradeButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.deleteGradeButton.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.deleteGradeButton.Location = New System.Drawing.Point(26, 493)
@@ -69,7 +72,7 @@ Partial Class removeGradeForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.Turquoise
         Me.ClientSize = New System.Drawing.Size(1131, 572)
         Me.Controls.Add(Me.gradeDataGridView)
         Me.Controls.Add(Me.Button2)
@@ -77,7 +80,7 @@ Partial Class removeGradeForm
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "removeGradeForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "removeGradeForm"
+        Me.Text = "Remove Grade"
         CType(Me.gradeDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

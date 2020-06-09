@@ -64,7 +64,7 @@ Partial Class editCourseForm
         '
         'editCourseButton
         '
-        Me.editCourseButton.BackColor = System.Drawing.Color.SkyBlue
+        Me.editCourseButton.BackColor = System.Drawing.Color.ForestGreen
         Me.editCourseButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.editCourseButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.editCourseButton.Location = New System.Drawing.Point(69, 416)
@@ -173,7 +173,7 @@ Partial Class editCourseForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.Turquoise
         Me.ClientSize = New System.Drawing.Size(516, 479)
         Me.Controls.Add(Me.titleTextBox)
         Me.Controls.Add(Me.idTextBox)
@@ -189,7 +189,7 @@ Partial Class editCourseForm
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "editCourseForm"
-        Me.Text = "editCourseForm"
+        Me.Text = "Edit Course"
         CType(Me.creditNumericUpDown, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

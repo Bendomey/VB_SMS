@@ -42,7 +42,7 @@ Partial Class manageCourseForm
         'titleTextBox
         '
         Me.titleTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.titleTextBox.Location = New System.Drawing.Point(61, 132)
+        Me.titleTextBox.Location = New System.Drawing.Point(571, 120)
         Me.titleTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.titleTextBox.Name = "titleTextBox"
         Me.titleTextBox.Size = New System.Drawing.Size(344, 26)
@@ -51,7 +51,7 @@ Partial Class manageCourseForm
         'idTextBox
         '
         Me.idTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.idTextBox.Location = New System.Drawing.Point(61, 67)
+        Me.idTextBox.Location = New System.Drawing.Point(571, 61)
         Me.idTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.idTextBox.Name = "idTextBox"
         Me.idTextBox.Size = New System.Drawing.Size(344, 26)
@@ -62,7 +62,7 @@ Partial Class manageCourseForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(57, 44)
+        Me.Label5.Location = New System.Drawing.Point(567, 39)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(107, 20)
         Me.Label5.TabIndex = 31
@@ -71,7 +71,7 @@ Partial Class manageCourseForm
         'creditNumericUpDown
         '
         Me.creditNumericUpDown.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.creditNumericUpDown.Location = New System.Drawing.Point(61, 195)
+        Me.creditNumericUpDown.Location = New System.Drawing.Point(572, 180)
         Me.creditNumericUpDown.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.creditNumericUpDown.Maximum = New Decimal(New Integer() {4, 0, 0, 0})
         Me.creditNumericUpDown.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
@@ -83,11 +83,11 @@ Partial Class manageCourseForm
         'descriptionTextBox
         '
         Me.descriptionTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.descriptionTextBox.Location = New System.Drawing.Point(60, 274)
+        Me.descriptionTextBox.Location = New System.Drawing.Point(572, 243)
         Me.descriptionTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.descriptionTextBox.Multiline = True
         Me.descriptionTextBox.Name = "descriptionTextBox"
-        Me.descriptionTextBox.Size = New System.Drawing.Size(263, 82)
+        Me.descriptionTextBox.Size = New System.Drawing.Size(345, 82)
         Me.descriptionTextBox.TabIndex = 29
         '
         'Label4
@@ -95,7 +95,7 @@ Partial Class manageCourseForm
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(56, 245)
+        Me.Label4.Location = New System.Drawing.Point(568, 221)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(95, 20)
         Me.Label4.TabIndex = 28
@@ -106,7 +106,7 @@ Partial Class manageCourseForm
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(57, 173)
+        Me.Label3.Location = New System.Drawing.Point(567, 158)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(63, 20)
         Me.Label3.TabIndex = 27
@@ -117,7 +117,7 @@ Partial Class manageCourseForm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(56, 109)
+        Me.Label2.Location = New System.Drawing.Point(567, 98)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(100, 20)
         Me.Label2.TabIndex = 26
@@ -128,7 +128,7 @@ Partial Class manageCourseForm
         Me.coursesListBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.coursesListBox.FormattingEnabled = True
         Me.coursesListBox.ItemHeight = 25
-        Me.coursesListBox.Location = New System.Drawing.Point(482, 56)
+        Me.coursesListBox.Location = New System.Drawing.Point(89, 39)
         Me.coursesListBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.coursesListBox.Name = "coursesListBox"
         Me.coursesListBox.Size = New System.Drawing.Size(384, 354)
@@ -136,60 +136,70 @@ Partial Class manageCourseForm
         '
         'previousButton
         '
-        Me.previousButton.Location = New System.Drawing.Point(105, 368)
+        Me.previousButton.BackColor = System.Drawing.Color.DarkCyan
+        Me.previousButton.ForeColor = System.Drawing.Color.White
+        Me.previousButton.Location = New System.Drawing.Point(102, 409)
         Me.previousButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.previousButton.Name = "previousButton"
-        Me.previousButton.Size = New System.Drawing.Size(67, 29)
+        Me.previousButton.Size = New System.Drawing.Size(147, 29)
         Me.previousButton.TabIndex = 35
         Me.previousButton.Text = "<<"
-        Me.previousButton.UseVisualStyleBackColor = True
+        Me.previousButton.UseVisualStyleBackColor = False
         '
         'nextButton
         '
-        Me.nextButton.Location = New System.Drawing.Point(226, 368)
+        Me.nextButton.BackColor = System.Drawing.Color.DarkCyan
+        Me.nextButton.ForeColor = System.Drawing.Color.White
+        Me.nextButton.Location = New System.Drawing.Point(292, 409)
         Me.nextButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.nextButton.Name = "nextButton"
-        Me.nextButton.Size = New System.Drawing.Size(67, 29)
+        Me.nextButton.Size = New System.Drawing.Size(146, 29)
         Me.nextButton.TabIndex = 36
         Me.nextButton.Text = ">>"
-        Me.nextButton.UseVisualStyleBackColor = True
+        Me.nextButton.UseVisualStyleBackColor = False
         '
         'deleteButton
         '
-        Me.deleteButton.Location = New System.Drawing.Point(287, 412)
+        Me.deleteButton.BackColor = System.Drawing.Color.Red
+        Me.deleteButton.ForeColor = System.Drawing.Color.White
+        Me.deleteButton.Location = New System.Drawing.Point(820, 349)
         Me.deleteButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.deleteButton.Name = "deleteButton"
-        Me.deleteButton.Size = New System.Drawing.Size(67, 31)
+        Me.deleteButton.Size = New System.Drawing.Size(95, 31)
         Me.deleteButton.TabIndex = 40
         Me.deleteButton.Text = "Delete"
-        Me.deleteButton.UseVisualStyleBackColor = True
+        Me.deleteButton.UseVisualStyleBackColor = False
         '
         'editButton
         '
-        Me.editButton.Location = New System.Drawing.Point(177, 412)
+        Me.editButton.BackColor = System.Drawing.Color.ForestGreen
+        Me.editButton.ForeColor = System.Drawing.Color.White
+        Me.editButton.Location = New System.Drawing.Point(692, 349)
         Me.editButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.editButton.Name = "editButton"
-        Me.editButton.Size = New System.Drawing.Size(67, 31)
+        Me.editButton.Size = New System.Drawing.Size(92, 31)
         Me.editButton.TabIndex = 39
         Me.editButton.Text = "Edit"
-        Me.editButton.UseVisualStyleBackColor = True
+        Me.editButton.UseVisualStyleBackColor = False
         '
         'addButton
         '
-        Me.addButton.Location = New System.Drawing.Point(63, 412)
+        Me.addButton.BackColor = System.Drawing.Color.ForestGreen
+        Me.addButton.ForeColor = System.Drawing.Color.White
+        Me.addButton.Location = New System.Drawing.Point(571, 349)
         Me.addButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.addButton.Name = "addButton"
-        Me.addButton.Size = New System.Drawing.Size(67, 31)
+        Me.addButton.Size = New System.Drawing.Size(102, 31)
         Me.addButton.TabIndex = 38
         Me.addButton.Text = "Add"
-        Me.addButton.UseVisualStyleBackColor = True
+        Me.addButton.UseVisualStyleBackColor = False
         '
         'manageCourseForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(940, 526)
+        Me.BackColor = System.Drawing.Color.Turquoise
+        Me.ClientSize = New System.Drawing.Size(799, 396)
         Me.Controls.Add(Me.deleteButton)
         Me.Controls.Add(Me.editButton)
         Me.Controls.Add(Me.addButton)
@@ -206,7 +216,7 @@ Partial Class manageCourseForm
         Me.Controls.Add(Me.Label2)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "manageCourseForm"
-        Me.Text = "manageCourseForm"
+        Me.Text = "Manage Course"
         CType(Me.creditNumericUpDown, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

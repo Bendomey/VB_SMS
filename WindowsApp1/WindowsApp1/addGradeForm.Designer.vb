@@ -39,17 +39,19 @@ Partial Class addGradeForm
         'scoreTextBox
         '
         Me.scoreTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.scoreTextBox.Location = New System.Drawing.Point(62, 235)
+        Me.scoreTextBox.Location = New System.Drawing.Point(586, 189)
+        Me.scoreTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.scoreTextBox.Name = "scoreTextBox"
-        Me.scoreTextBox.Size = New System.Drawing.Size(386, 30)
+        Me.scoreTextBox.Size = New System.Drawing.Size(344, 26)
         Me.scoreTextBox.TabIndex = 37
         '
         'studentIDTextBox
         '
         Me.studentIDTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.studentIDTextBox.Location = New System.Drawing.Point(61, 69)
+        Me.studentIDTextBox.Location = New System.Drawing.Point(586, 63)
+        Me.studentIDTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.studentIDTextBox.Name = "studentIDTextBox"
-        Me.studentIDTextBox.Size = New System.Drawing.Size(386, 30)
+        Me.studentIDTextBox.Size = New System.Drawing.Size(344, 26)
         Me.studentIDTextBox.TabIndex = 36
         '
         'Label5
@@ -57,9 +59,9 @@ Partial Class addGradeForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(56, 40)
+        Me.Label5.Location = New System.Drawing.Point(582, 41)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(155, 25)
+        Me.Label5.Size = New System.Drawing.Size(133, 20)
         Me.Label5.TabIndex = 35
         Me.Label5.Text = "Enter Student ID"
         '
@@ -68,35 +70,43 @@ Partial Class addGradeForm
         Me.courseCodeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.courseCodeComboBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.courseCodeComboBox.FormattingEnabled = True
-        Me.courseCodeComboBox.Location = New System.Drawing.Point(62, 159)
+        Me.courseCodeComboBox.Location = New System.Drawing.Point(586, 126)
+        Me.courseCodeComboBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.courseCodeComboBox.Name = "courseCodeComboBox"
-        Me.courseCodeComboBox.Size = New System.Drawing.Size(385, 33)
+        Me.courseCodeComboBox.Size = New System.Drawing.Size(343, 28)
         Me.courseCodeComboBox.TabIndex = 34
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(306, 417)
+        Me.Button2.BackColor = System.Drawing.Color.Red
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(777, 318)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 39)
+        Me.Button2.Size = New System.Drawing.Size(155, 31)
         Me.Button2.TabIndex = 32
         Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'addGradeButton
         '
-        Me.addGradeButton.Location = New System.Drawing.Point(119, 417)
+        Me.addGradeButton.BackColor = System.Drawing.Color.ForestGreen
+        Me.addGradeButton.ForeColor = System.Drawing.Color.White
+        Me.addGradeButton.Location = New System.Drawing.Point(586, 318)
+        Me.addGradeButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.addGradeButton.Name = "addGradeButton"
-        Me.addGradeButton.Size = New System.Drawing.Size(97, 39)
+        Me.addGradeButton.Size = New System.Drawing.Size(156, 31)
         Me.addGradeButton.TabIndex = 31
         Me.addGradeButton.Text = "Add Grade"
-        Me.addGradeButton.UseVisualStyleBackColor = True
+        Me.addGradeButton.UseVisualStyleBackColor = False
         '
         'gradeTextBox
         '
         Me.gradeTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gradeTextBox.Location = New System.Drawing.Point(62, 323)
+        Me.gradeTextBox.Location = New System.Drawing.Point(586, 260)
+        Me.gradeTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.gradeTextBox.Name = "gradeTextBox"
-        Me.gradeTextBox.Size = New System.Drawing.Size(389, 30)
+        Me.gradeTextBox.Size = New System.Drawing.Size(346, 26)
         Me.gradeTextBox.TabIndex = 30
         '
         'Label4
@@ -104,9 +114,9 @@ Partial Class addGradeForm
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(58, 287)
+        Me.Label4.Location = New System.Drawing.Point(582, 229)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 25)
+        Me.Label4.Size = New System.Drawing.Size(55, 20)
         Me.Label4.TabIndex = 29
         Me.Label4.Text = "Grade"
         '
@@ -115,9 +125,9 @@ Partial Class addGradeForm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(56, 206)
+        Me.Label2.Location = New System.Drawing.Point(582, 167)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(64, 25)
+        Me.Label2.Size = New System.Drawing.Size(53, 20)
         Me.Label2.TabIndex = 27
         Me.Label2.Text = "Score"
         '
@@ -126,9 +136,9 @@ Partial Class addGradeForm
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(59, 122)
+        Me.Label1.Location = New System.Drawing.Point(582, 104)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(179, 25)
+        Me.Label1.Size = New System.Drawing.Size(153, 20)
         Me.Label1.TabIndex = 26
         Me.Label1.Text = "Select course code"
         '
@@ -136,21 +146,23 @@ Partial Class addGradeForm
         '
         Me.studentsDataGridView.AllowUserToAddRows = False
         Me.studentsDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.studentsDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
         Me.studentsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.studentsDataGridView.Location = New System.Drawing.Point(501, 47)
+        Me.studentsDataGridView.Location = New System.Drawing.Point(36, 42)
+        Me.studentsDataGridView.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.studentsDataGridView.Name = "studentsDataGridView"
         Me.studentsDataGridView.ReadOnly = True
         Me.studentsDataGridView.RowHeadersWidth = 62
         Me.studentsDataGridView.RowTemplate.Height = 28
-        Me.studentsDataGridView.Size = New System.Drawing.Size(566, 414)
+        Me.studentsDataGridView.Size = New System.Drawing.Size(503, 331)
         Me.studentsDataGridView.TabIndex = 38
         '
         'addGradeForm
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1096, 527)
+        Me.BackColor = System.Drawing.Color.Turquoise
+        Me.ClientSize = New System.Drawing.Size(963, 400)
         Me.Controls.Add(Me.studentsDataGridView)
         Me.Controls.Add(Me.scoreTextBox)
         Me.Controls.Add(Me.studentIDTextBox)
@@ -162,8 +174,9 @@ Partial Class addGradeForm
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "addGradeForm"
-        Me.Text = "addGradeForm"
+        Me.Text = "Add Grade"
         CType(Me.studentsDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

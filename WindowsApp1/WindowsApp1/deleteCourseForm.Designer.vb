@@ -49,26 +49,28 @@ Partial Class deleteCourseForm
         '
         'deleteCourseButton
         '
-        Me.deleteCourseButton.Location = New System.Drawing.Point(207, 170)
+        Me.deleteCourseButton.BackColor = System.Drawing.Color.ForestGreen
+        Me.deleteCourseButton.ForeColor = System.Drawing.Color.White
+        Me.deleteCourseButton.Location = New System.Drawing.Point(74, 153)
         Me.deleteCourseButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.deleteCourseButton.Name = "deleteCourseButton"
-        Me.deleteCourseButton.Size = New System.Drawing.Size(67, 31)
+        Me.deleteCourseButton.Size = New System.Drawing.Size(344, 31)
         Me.deleteCourseButton.TabIndex = 10
         Me.deleteCourseButton.Text = "Delete"
-        Me.deleteCourseButton.UseVisualStyleBackColor = True
+        Me.deleteCourseButton.UseVisualStyleBackColor = False
         '
         'deleteCourseForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.Turquoise
         Me.ClientSize = New System.Drawing.Size(503, 271)
         Me.Controls.Add(Me.deleteCourseButton)
         Me.Controls.Add(Me.courseIDTextBox)
         Me.Controls.Add(Me.Label1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "deleteCourseForm"
-        Me.Text = "deleteCourseForm"
+        Me.Text = "Delete Course"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -50,7 +50,7 @@ Partial Class addStudentForm
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(28, 18)
+        Me.Label1.Location = New System.Drawing.Point(24, 6)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(116, 25)
         Me.Label1.TabIndex = 0
@@ -70,7 +70,7 @@ Partial Class addStudentForm
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(33, 91)
+        Me.Label2.Location = New System.Drawing.Point(33, 84)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(115, 25)
         Me.Label2.TabIndex = 2
@@ -79,7 +79,7 @@ Partial Class addStudentForm
         'lnameTextBox
         '
         Me.lnameTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lnameTextBox.Location = New System.Drawing.Point(38, 118)
+        Me.lnameTextBox.Location = New System.Drawing.Point(35, 111)
         Me.lnameTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.lnameTextBox.Name = "lnameTextBox"
         Me.lnameTextBox.Size = New System.Drawing.Size(415, 30)
@@ -90,7 +90,7 @@ Partial Class addStudentForm
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(37, 162)
+        Me.Label3.Location = New System.Drawing.Point(33, 159)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(131, 25)
         Me.Label3.TabIndex = 4
@@ -101,7 +101,7 @@ Partial Class addStudentForm
         Me.DateTimePicker1.CustomFormat = "dd/MM/yyyy"
         Me.DateTimePicker1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.DateTimePicker1.Location = New System.Drawing.Point(42, 198)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(35, 186)
         Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(411, 23)
@@ -130,11 +130,11 @@ Partial Class addStudentForm
         'addressTextBox
         '
         Me.addressTextBox.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.addressTextBox.Location = New System.Drawing.Point(38, 429)
+        Me.addressTextBox.Location = New System.Drawing.Point(482, 396)
         Me.addressTextBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.addressTextBox.Multiline = True
         Me.addressTextBox.Name = "addressTextBox"
-        Me.addressTextBox.Size = New System.Drawing.Size(415, 91)
+        Me.addressTextBox.Size = New System.Drawing.Size(376, 91)
         Me.addressTextBox.TabIndex = 9
         '
         'Label5
@@ -142,7 +142,7 @@ Partial Class addStudentForm
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(46, 391)
+        Me.Label5.Location = New System.Drawing.Point(489, 352)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(92, 25)
         Me.Label5.TabIndex = 8
@@ -153,7 +153,7 @@ Partial Class addStudentForm
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(477, 24)
+        Me.Label6.Location = New System.Drawing.Point(489, 28)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(116, 25)
         Me.Label6.TabIndex = 10
@@ -165,30 +165,32 @@ Partial Class addStudentForm
         Me.studentPictureBox.Location = New System.Drawing.Point(482, 69)
         Me.studentPictureBox.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.studentPictureBox.Name = "studentPictureBox"
-        Me.studentPictureBox.Size = New System.Drawing.Size(376, 412)
+        Me.studentPictureBox.Size = New System.Drawing.Size(376, 176)
         Me.studentPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.studentPictureBox.TabIndex = 11
         Me.studentPictureBox.TabStop = False
         '
         'uploadButton
         '
-        Me.uploadButton.Location = New System.Drawing.Point(482, 485)
+        Me.uploadButton.BackColor = System.Drawing.Color.ForestGreen
+        Me.uploadButton.ForeColor = System.Drawing.Color.White
+        Me.uploadButton.Location = New System.Drawing.Point(482, 276)
         Me.uploadButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.uploadButton.Name = "uploadButton"
         Me.uploadButton.Size = New System.Drawing.Size(376, 45)
         Me.uploadButton.TabIndex = 12
         Me.uploadButton.Text = "Upload Image"
-        Me.uploadButton.UseVisualStyleBackColor = True
+        Me.uploadButton.UseVisualStyleBackColor = False
         '
         'saveStudentButton
         '
         Me.saveStudentButton.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.saveStudentButton.BackColor = System.Drawing.Color.FromArgb(CType(CType(61, Byte), Integer), CType(CType(131, Byte), Integer), CType(CType(215, Byte), Integer))
+        Me.saveStudentButton.BackColor = System.Drawing.Color.ForestGreen
         Me.saveStudentButton.ForeColor = System.Drawing.Color.White
-        Me.saveStudentButton.Location = New System.Drawing.Point(59, 556)
+        Me.saveStudentButton.Location = New System.Drawing.Point(38, 411)
         Me.saveStudentButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.saveStudentButton.Name = "saveStudentButton"
-        Me.saveStudentButton.Size = New System.Drawing.Size(100, 32)
+        Me.saveStudentButton.Size = New System.Drawing.Size(160, 42)
         Me.saveStudentButton.TabIndex = 13
         Me.saveStudentButton.Text = "Save"
         Me.saveStudentButton.UseVisualStyleBackColor = False
@@ -197,10 +199,10 @@ Partial Class addStudentForm
         '
         Me.cancelStudentButton.BackColor = System.Drawing.Color.Red
         Me.cancelStudentButton.ForeColor = System.Drawing.Color.White
-        Me.cancelStudentButton.Location = New System.Drawing.Point(247, 556)
+        Me.cancelStudentButton.Location = New System.Drawing.Point(245, 411)
         Me.cancelStudentButton.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.cancelStudentButton.Name = "cancelStudentButton"
-        Me.cancelStudentButton.Size = New System.Drawing.Size(100, 32)
+        Me.cancelStudentButton.Size = New System.Drawing.Size(138, 42)
         Me.cancelStudentButton.TabIndex = 14
         Me.cancelStudentButton.Text = "Cancel"
         Me.cancelStudentButton.UseVisualStyleBackColor = False
@@ -210,7 +212,7 @@ Partial Class addStudentForm
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(40, 230)
+        Me.Label7.Location = New System.Drawing.Point(42, 230)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(83, 25)
         Me.Label7.TabIndex = 15
@@ -262,8 +264,8 @@ Partial Class addStudentForm
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoSize = True
-        Me.BackColor = System.Drawing.Color.Silver
-        Me.ClientSize = New System.Drawing.Size(888, 610)
+        Me.BackColor = System.Drawing.Color.Turquoise
+        Me.ClientSize = New System.Drawing.Size(893, 610)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.cancelStudentButton)
